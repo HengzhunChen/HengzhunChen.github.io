@@ -3,14 +3,20 @@ layout: splash
 author_profile: false
 ---
 
-A Guidance for Website Construction Using Jekyll
+A Guidance for Website Generation Using Jekyll
 =================================================
 
-Websites for detailed introductions.
+Websites for further introduction: 
+  - [Jekyll](https://miamarti.github.io/) 
+  - [Ruby](https://www.ruby-lang.org/en/) 
+  - [NodeJS](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs)
+  - [Liquid](https://shopify.github.io/liquid/basics/introduction/)
 
+You'd better know some basic HTML (HyperText Markup Language) and CSS (Cascading Style Sheets).
 
+Here are some basic questions for the background and some steps to build the website. 
 
-Here are some basic questions to understand and some steps to build the website.
+For more explanation and function in web page design, please refer to [Jekyll docs](https://miamarti.github.io/docs/home/). 
 
 ## Preliminary
 
@@ -74,25 +80,8 @@ RubyGems: The package manager for Ruby, allowing developers to manage and distri
 
 In summary, Ruby is the programming language, RubyGems is the package manager, Gems are the packages or libraries, and Bundle is a tool that helps manage the dependencies of a Ruby project using RubyGems.
 
-**Q**: How to install ruby, rubygem and bundle over Linux?
 
-
-**A**: 
-
-Install Ruby: 
-
-Ruby is often pre-installed on macOS and Linux systems. You can check if Ruby is already installed by opening a terminal and running the command `ruby --version`. If it's not installed or you need a different version, you can use a version manager like rbenv or RVM to install and manage Ruby versions.
-
-Install RubyGems:
-
-RubyGems usually comes bundled with Ruby, so you should have it installed already if you installed Ruby using a standard installation method. You can verify this by running the command `gem --version` in the terminal. If RubyGems is not installed or you need to update it, you can do so by running `gem update --system`.
-
-Install Bundle:
-
-Once RubyGems is installed, you can use it to install the Bundler gem. Open a terminal and run the command `gem install bundler` to install Bundle.
-After the installation, you can verify that Bundle is installed correctly by running `bundle --version` in the terminal. You should see the version number of Bundle printed if the installation was successful.
-
-**Q**: How to manage the different gems used for different projects which may required different version of the same gem?
+**Q**: How to manage the different gems used for different projects which may required different versions of the same gem?
 
 **A**: To manage different gems used for different projects that might require different versions of the same gem, you can utilize Ruby version managers and Bundler's gem version management capabilities. Here's an approach you can follow:
 
@@ -113,7 +102,7 @@ After the installation, you can verify that Bundle is installed correctly by run
   - Run `bundle install` within the project directory to install the specific gem versions specified in the Gemfile for that project.
 
 
-**Q**: Where does the gem file being installed if I used bundle to manage them?
+**Q**: Where does the gem file being installed if I used bundler to manage them?
 
 **A**: When you use Bundler to manage gems for a project, the gems specified in the Gemfile are installed in the project's directory. By default, Bundler creates a directory called vendor/bundle within the project directory and installs the gems there.
 
@@ -161,51 +150,89 @@ The <ruby_version> part in the path represents the installed Ruby version, such 
 It's important to note that installing gems using gem install without Bundler can install them globally on your system, making them available to all projects using the same Ruby installation. This might lead to potential conflicts or version mismatches between projects that require different gem versions.
 To avoid such conflicts, it is recommended to use Bundler and manage gem dependencies within each project separately. Bundler provides a way to isolate and manage gems per project, as discussed earlier.
 
+**Q**: How to install ruby, rubygem and bundler over Linux?
+
+
+**A**: Install Ruby: 
+
+Ruby is often pre-installed on macOS and Linux systems. You can check if Ruby is already installed by opening a terminal and running the command `ruby --version`. If it's not installed or you need a different version, you can use a version manager like rbenv or RVM to install and manage Ruby versions.
+
+Install RubyGems:
+
+RubyGems usually comes bundled with Ruby, so you should have it installed already if you installed Ruby using a standard installation method. You can verify this by running the command `gem --version` in the terminal. If RubyGems is not installed or you need to update it, you can do so by running `gem update --system`.
+
+Install Bundler:
+
+Once RubyGems is installed, you can use it to install the Bundler gem. Open a terminal and run the command `gem install bundler` to install Bundle.
+After the installation, you can verify that Bundle is installed correctly by running `bundle --version` in the terminal. You should see the version number of Bundle printed if the installation was successful.
+
+
 **Q**: How to use Bundler?
 
 **A**: To use Bundler, follow these steps:
 
 - Install Bundler: Ensure that Bundler is installed on your system. If you don't have it installed, you can install it by running the following command:
-```
-gem install bundler
-```
+  ```
+  gem install bundler
+  ```
 
 - Create a Gemfile: In your project's directory, create a file named Gemfile. This file will specify the gems and their versions that your project depends on. Open the Gemfile in a text editor.
 
 - Specify gem dependencies: Inside the Gemfile, use the RubyGems syntax to specify the gems and their versions that your project requires. For example:
-
-``` ruby
-source 'https://rubygems.org'
-gem 'rails', '~> 6.1.0'
-gem 'rack', '2.2.3'
-```
-
-In this example, the `Gemfile` specifies that the project requires Rails version 6.1.0 or later and Rack version 2.2.3.
+  ``` ruby
+  source "https://rubygems.org"
+  gem "jekyll", "<= 3.0"
+  ```
 
 - Install gems: In your project's directory, run the following command to install the gems specified in the Gemfile:
-```
-bundle install
-```
-
-Bundler will read the `Gemfile`, resolve the gem dependencies, and install the required gems. The installed gems will be placed in a directory called `vendor/bundle` within your project's directory.
+  ```
+  bundle install --path vendor/bundle
+  ```
+  Bundler will read the `Gemfile`, resolve the gem dependencies, and install the required gems. The installed gems will be placed in a directory called `vendor/bundle` within your project's directory.
 
 - Use bundled gems: Once the gems are installed, you can use them in your project. If you're running Ruby scripts or executing commands, prefix them with `bundle exec`` to ensure that the correct gem versions are used. For example:
-
-``` ruby
-bundle exec ruby script.rb
-```
-
-This ensures that the `script.rb` file is executed within the bundled environment, using the gems specified in the `Gemfile`.
+  ``` ruby
+  bundle exec ruby script.rb
+  ```
+  This ensures that the `script.rb` file is executed within the bundled environment, using the gems specified in the `Gemfile`.
 
 - Update gems: If you need to update the gems in your project, modify the Gemfile with the desired gem versions, and then run bundle update to update the gems accordingly.
 
 Bundler helps manage and isolate gem dependencies for your projects, making it easier to maintain consistent gem environments across different machines and projects.
 
+**Remark:** Frequently used command to view the website in local host. 
+
+Remember to go to the directory of your project in which the `_config.yml` file locates.
+``` ruby
+bundle exec jekyll serve  # live serve with default local website http://localhost:4000
+bundle exec jekyll --port=12345  # live serve with local website port 12345 (can be replaced by any acceptable numbers) 
+```
+You can use `bundle exec jekyll new myblog` to initialize a blank website in folder `myblog`.
+
+**Q**: What is the relationship between Liquid and HTML?
+
+**A**: Liquid is a templating language used in HTML templates to add dynamic elements and logic. It was developed by Shopify and is widely used in various web development frameworks, including Jekyll, which is a popular static site generator. Liquid provides a way to insert variables, perform conditional statements, iterate over collections, and apply filters to manipulate data within HTML templates. It allows you to separate the presentation layer from the data and logic, making your templates more flexible and reusable.
+
+------------------------------------------
 
 
-**Q**: What is the relationship between Liquid and html?
+## Small Tips 
 
-比较好的方式还是把这里的代码都学习一下，而不是在一无所知地试错。
+Remark: From my personal experience, instead of modifying the code directly without any knowledge to check whether it implements the desired function, it is better to understand the file strcuture and how they are organized to generate the website.
 
-去理解这里的多文件结构，而不是具体的代码试错
+### Markdown usage
+
+- Writing expressions as blocks
+  
+  To add a math expression as a block, start a new line and delimit the expression with two dollar symbols $$
+
+  A blank line between last word line and the started symbol $$, and a blank line between the end symbol $$ and next word line are necessary to make it work correctly
+ 
+- Symbol confliction between LaTeX and Markdown
+
+  - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers.
+
+  - There should leave a space between `*` and the following LaTeX code to make it work as expected, for example `$x^* \in A$`.
+
+- ...
 

@@ -20,4 +20,4 @@ mainly for fun. 🙃
 
 ## Programming
 
-- [Guide for Website Construction Using Jekyll](./intro_website_build)
+- [A Guidance for Website Generation Using Jekyll](./intro_website_build)
