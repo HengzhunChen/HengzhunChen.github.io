@@ -6,12 +6,15 @@ author_profile: true
 
 **给时间时间，让过去过去，用改变改变。**
 
+宇宙的目的是什么？
+
+
 如果这个宇宙的结局是注定的，是消亡，是归于死寂，那这或许更说明，只有过程才是最重要的，或许生命的价值就在于你能够镇静而又激动地欣赏这过程的美丽和悲壮。
 
 
 不论是否怀着新的期待度过每一天，尽管去做猫吧，去做一只不被定义的猫。
 
-![cat_trige](../images/cat_tiger.jpg)
+![cat_tiger](../images/cat_tiger.jpg)
 
 <!-- <div style="text-align:center;">
 <img src="../images/cat_tiger.jpg" height="50%" width="50%">

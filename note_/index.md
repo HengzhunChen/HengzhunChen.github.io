@@ -21,3 +21,5 @@ mainly for fun. 🙃
 ## Programming
 
 - [A Guidance for Website Generation Using Jekyll](./intro_website_build)
+
+- [An Introduction for Makefile](./makefile.md)

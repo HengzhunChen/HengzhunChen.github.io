@@ -3,7 +3,35 @@ layout: splash
 author_profile: false
 ---
 
-# First-Order Methods in Optimization (Amir Beck)
+<h1> First-Order Methods in Optimization (Amir Beck) </h1>
+
+<h2>Content</h2>
+
+- [Preliminary](#preliminary)
+
+- [Subgradient](#subgradient)
+
+- [Conjugate Functions](#conjugate-functions)
+
+- [Smoothness and Strong Convexity](#smoothness-and-strong-convexity)
+
+- [Proximal Operator](#proximal-operator)
+
+- [Subgradient Method](#subgradient-method)
+
+- [Mirror Descent](#mirror-descent)
+
+- [The Proximal Gradient Method](#the-proximal-gradient-method)
+
+- [Block Proximal Gradient Method](#block-proximal-gradient-method)
+
+- [Dual-Based Proximal Gradient Methods](#dual-based-proximal-gradient-methods)
+
+- [The Generalized Conditional Gradient Method](#the-generalized-conditional-gradient-method)
+
+- [Alternating Minimization](#alternating-minimization)
+
+- [ADMM](#admm)
 
 
 # Preliminary

@@ -218,7 +218,7 @@ You can use `bundle exec jekyll new myblog` to initialize a blank website in fol
 
 ## Small Tips 
 
-Remark: From my personal experience, instead of modifying the code directly without any knowledge to check whether it implements the desired function, it is better to understand the file strcuture and how they are organized to generate the website.
+Remark: From my personal experience, instead of modifying the code directly without any knowledge to check whether it implements the desired function, it is better to understand the file structure and how they are organized to generate the website.
 
 ### Markdown usage
 
