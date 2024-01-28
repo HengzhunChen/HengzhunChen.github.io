@@ -14,3 +14,6 @@ Something interesting is coming! 🤡
 ## Non-academic Works
 
 - [Child-2021](../files/works/child.pdf)
+
+- [Negatives_Negate_Negativity-2020](../files/works/negatives_negate_negativity.pdf)
+  [(Appendix)](../files/works/negatives_negate_negativity-appendix.png)
