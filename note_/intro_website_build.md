@@ -185,8 +185,9 @@ After the installation, you can verify that Bundle is installed correctly by run
   ```
 
 - Install gems: In your project's directory, run the following command to install the gems specified in the Gemfile:
-  ```
-  bundle install --path vendor/bundle
+  ``` ruby
+  bundle config set --local path 'vendor/bundle'
+  bundle install
   ```
   Bundler will read the `Gemfile`, resolve the gem dependencies, and install the required gems. The installed gems will be placed in a directory called `vendor/bundle` within your project's directory.
 
@@ -205,7 +206,7 @@ Bundler helps manage and isolate gem dependencies for your projects, making it e
 Remember to go to the directory of your project in which the `_config.yml` file locates.
 ``` ruby
 bundle exec jekyll serve  # live serve with default local website http://localhost:4000
-bundle exec jekyll --port=12345  # live serve with local website port 12345 (can be replaced by any acceptable numbers) 
+bundle exec jekyll serve --port=12345  # live serve with local website port 12345 (can be replaced by any acceptable numbers) 
 ```
 You can use `bundle exec jekyll new myblog` to initialize a blank website in folder `myblog`.
 
@@ -228,7 +229,7 @@ Remark: From my personal experience, instead of modifying the code directly with
 
   A blank line between last word line and the started symbol $$, and a blank line between the end symbol $$ and next word line are necessary to make it work correctly
  
-- Symbol confliction between LaTeX and Markdown
+- Symbol conflicts between LaTeX and Markdown
 
   - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers.
 
