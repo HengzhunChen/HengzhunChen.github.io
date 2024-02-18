@@ -19,3 +19,5 @@ Something interesting is coming! 🤡
   [(Appendix)](../files/works/negatives_negate_negativity-appendix.png)
 
 - [Realm_of_Selflessness-2019](../files/works/realm_of_selflessness.pdf)
+
+- [Double_Duck_Story-2019](../files/works/doubleduck.pdf)
