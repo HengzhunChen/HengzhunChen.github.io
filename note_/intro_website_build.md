@@ -225,15 +225,15 @@ Remark: From my personal experience, instead of modifying the code directly with
 
 - Writing expressions as blocks
   
-  To add a math expression as a block, start a new line and delimit the expression with two dollar symbols $$
+  To add a math expression as a block, start a new line and delimit the expression with two dollar symbols `$$`
 
-  A blank line between last word line and the started symbol $$, and a blank line between the end symbol $$ and next word line are necessary to make it work correctly
+  A blank line between last word line and the started symbol `$$`, and a blank line between the end symbol `$$` and next word line are necessary to make it work correctly
  
 - Symbol conflicts between LaTeX and Markdown
 
-  - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers.
+  - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers, use command `\vert` instead of `|`
 
-  - There should leave a space between `*` and the following LaTeX code to make it work as expected, for example `$x^* \in A$`.
+  - There should leave a space between `*` and the following LaTeX code to make it work as expected, for example `$x^* \in A$`. Furthermore, use command `\ast` instead of `*`
 
 - ...
 
