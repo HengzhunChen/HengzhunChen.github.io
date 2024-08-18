@@ -18,13 +18,13 @@ Currently, my interests mainly focus on
 - AI for Sciences (Application of Deep Learning)
 <!-- - AI for Mathematics (Formal proof for theorems) -->
 
-Any relatived discussion is welcomed! 🤠
+Any relative discussion is welcomed! 🤠
 
 Enjoy the trip when you are wandering in my pages. （￣︶￣）↗　
 
 # Events
 
-- I will be one of the hosts of Applied Math Ph.D (AMPhD) Seminar at Fudan
+- I am one of the hosts of Applied Math Ph.D (AMPhD) Seminar at Fudan
   University in 2024 spring. See also the [introduction](https://amphds.yingzhouli.com/about.html).
 
 
