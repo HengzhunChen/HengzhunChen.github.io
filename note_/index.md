@@ -19,6 +19,12 @@ mainly for fun. 🙃
 
 - [An Introduction to Manifold](./an_introduction_to_manifold)
 
+## Quantum Computation
+
+- [Quantum Computer](./quantum_computer)
+
+- [Quantum Scientific Computation](./quantum_scientific_computation)
+
 ## Programming
 
 - [A Guidance for Website Generation Using Jekyll](./intro_website_build)

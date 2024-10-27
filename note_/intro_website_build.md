@@ -235,5 +235,7 @@ Remark: From my personal experience, instead of modifying the code directly with
 
   - There should leave a space between `*` and the following LaTeX code to make it work as expected, for example `$x^* \in A$`. Furthermore, use command `\ast` instead of `*`
 
+  - Sometimes you need to include the subscript into the command of the special mathematical fonts, e.g., use `\mathcal{G_n}` instead of `\mathcal{G}_n`
+
 - ...
 
