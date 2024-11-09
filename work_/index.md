@@ -13,6 +13,8 @@ Something interesting is coming! 🤡
 
 ## Non-academic Works
 
+- [Survival_Guide (draft-2024)](../files/works/survival_guide.pdf)
+
 - [Children-2021](../files/works/children.pdf)
 
 - [Negatives_Negate_Negativity-2020](../files/works/negatives_negate_negativity.pdf)

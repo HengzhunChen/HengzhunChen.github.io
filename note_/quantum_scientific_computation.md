@@ -332,7 +332,7 @@ Some more general methods will be discussed below.
 
 **Query model for matrix entries (read-out)**
 
-Assume $A$ is an $n$-qubit, square matrix and $\|A\|_{\max}:=\max_{ij} \|A_{ij}\| < 1$. The desired query oracle takes the following general form:
+Assume $A$ is an $n$-qubit, square matrix and $\vert A \vert_{\max}:=\max_{ij} \vert A_{ij}\vert < 1$. The desired query oracle takes the following general form:
 
 $$ O_A |0\rangle |i\rangle |j\rangle = \left( A_{ij} |0\rangle + \sqrt{1-|A_{ij}|^2} |1\rangle\right) |i\rangle |j\rangle.$$
 
@@ -434,7 +434,7 @@ where $\vert \widetilde{\bot}\rangle$ is an un-normalized state satisfying $(\ve
 
 **Example: Linear combination of two matrices**
 
-![Linear combination of two unitaries](./figures/quantum_computing/qc_LCU.png)
+![Linear combination of two unitaries](./figures/quantum_computing/qc_LCU.png){:height="70%" width="70%"}
 
 --------------------------------------------------------------------------------
 
