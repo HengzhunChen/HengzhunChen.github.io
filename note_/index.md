@@ -13,11 +13,13 @@ mainly for fun. 🙃
 
 ## Math
 
-- [First-order Methods in Optimization](./first_order_methods_in_optmization)
+- [First-order Methods in Optimization](./first_order_methods_in_optimization)
 
 <!-- - A new attempt for the note link [link]({{ site.url | append: "/note/method" }}) -->
 
 - [An Introduction to Manifold](./an_introduction_to_manifold)
+
+- [Iterative Methods for Sparse Linear Systems](./iterative_methods_for_sparse_linear_system)
 
 ## Quantum Computation
 

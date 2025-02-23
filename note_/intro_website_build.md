@@ -231,7 +231,7 @@ Remark: From my personal experience, instead of modifying the code directly with
  
 - Symbol conflicts between LaTeX and Markdown
 
-  - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers, use command `\vert` instead of `|`
+  - The absolute value symbol `|` in inline LaTeX expression may confused with the table separation of Markdown with different browsers, use command `\vert` instead of `|`. Similar, use `\Vert` instead of `\|` for norm.
 
   - There should leave a space between `*` and the following LaTeX code to make it work as expected, for example `$x^* \in A$`. Furthermore, use command `\ast` instead of `*`
 
