@@ -237,5 +237,7 @@ Remark: From my personal experience, instead of modifying the code directly with
 
   - Sometimes you need to include the subscript into the command of the special mathematical fonts, e.g., use `\mathcal{G_n}` instead of `\mathcal{G}_n`
 
+  - The curly braces may get error with commands `\{` and `\}` in math mode. An alternative method is to use commands `\lbrace` and `\rbrace` instead.
+
 - ...
 

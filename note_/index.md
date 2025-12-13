@@ -13,6 +13,8 @@ mainly for fun. 🙃
 
 ## Math
 
+- [Basic Numerical Optimization](./basic_numerical_optimization)
+
 - [First-order Methods in Optimization](./first_order_methods_in_optimization)
 
 <!-- - A new attempt for the note link [link]({{ site.url | append: "/note/method" }}) -->
