@@ -13,6 +13,8 @@ Something interesting is coming! 🤡
 
 ## Non-academic Works
 
+- [Life-2025](../files/works/life.pdf)
+
 - [Survival_Guide (draft-2024)](../files/works/survival_guide.pdf)
 
 - [Children-2021](../files/works/children.pdf)
