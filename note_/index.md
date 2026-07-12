@@ -13,6 +13,15 @@ mainly for fun. 🙃
 
 ## Math
 
+What is good mathematics?
+
+There is a remarkable phenomenon that 
+**good mathematics tends to beget more good mathematics**. 
+Perhaps all the sepcific metrics for good quality mathematics just
+represent different routes to uncover new mathematics, or different
+stages or aspects of the evolution of a mathematical _story_.
+
+
 - [Basic Numerical Optimization](./basic_numerical_optimization)
 
 - [First-order Methods in Optimization](./first_order_methods_in_optimization)
@@ -23,7 +32,15 @@ mainly for fun. 🙃
 
 - [Iterative Methods for Sparse Linear Systems](./iterative_methods_for_sparse_linear_system)
 
+- [Eigenvalue Problem](./eigen_problem)
+
 ## Quantum Computation
+
+What is quantum computing?
+
+Quantum computing is mainly a computational style that use quantum
+phenomenon to accelerate computation. And the design of quantum computer
+itself also gives a lot of interesting problems.
 
 - [Quantum Computer](./quantum_computer)
 
