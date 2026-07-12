@@ -15,14 +15,16 @@ Mathematics under supervision of Prof. [Yingzhou Li](https://yingzhouli.com).
 Currently, my interests mainly focus on
 - Quantum Computation
 - Electronic Structure Calculation
-- AI for Sciences (Application of Deep Learning)
-<!-- - AI for Mathematics (Formal proof for theorems) -->
+- AI for Scientific Computing
+- AI for Math Reasoning
 
 Any relative discussion is welcomed! 🤠
 
 Enjoy the trip when you are wandering in my pages. （￣︶￣）↗　
 
 # Events
+
+- I am visiting the National University of Singapore from Februry, 2026, hosted by Prof. [Zhenning Cai](https://blog.nus.edu.sg/matcz/).
 
 - I am one of the hosts of Applied Math Ph.D (AMPhD) Seminar at Fudan
   University in 2024 spring. See also the [introduction](https://amphds.yingzhouli.com/about.html).
