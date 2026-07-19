@@ -29,3 +29,18 @@ FGAFSE is a MATLAB code that offers an implementation of the Frozen Gaussian App
 ### Tex2docx [[Github]](https://github.com/HengzhunChen/tex2docx)
 
 This is a guide of using "Pandoc+Panflute" to convert LaTeX file to Docx format. While Pandoc can convert LaTeX to Docx, the conversion is not always be perfect, as the two formats have different capabilities and features. Manual adjustments or fine-tuning may be required after the conversion, to ensure the document appears as intended in the new format. The goal of this project is to showcase the workflow of customized Pandoc, a tailored version of Pandoc that aims to minimize the need for manual adjustments.
+
+### SinCoTrap [[Github]](https://github.com/HengzhunChen/SinCoTrap)
+
+SinCoTrap (Singularity-Corrected Trapezoidal Rule) is a high-order locally corrected trapezoidal method for periodic singular integrals. It targets kernels of the form $|\boldsymbol{x}|^{-s}$ with $0 < s < d$, while preserving the uniform tensor grid and modifying only a small fixed stencil of weights near the singularity.
+Specifically, we focus on singular integrals in arbitrary dimension $d$ that takes the form
+
+$$ I[\varphi \cdot \sigma] 
+= \int_{[-a, a]^d} \varphi(\boldsymbol{x}) \sigma(\boldsymbol{x}) \mathrm{d} \boldsymbol{x}, 
+\quad \sigma(\boldsymbol{x}) 
+= \frac{1}{|\boldsymbol{x}|^{s}}, 
+\quad \boldsymbol{x} \in \mathbb{R}^d. \nonumber $$
+
+Equivalently, $\varphi\cdot\sigma$ defines a $C^{\infty}$ function on the punctured torus.
+
+For correction order $p$, the corrected quadrature achieves the error rate $O(h^{2p+2+d-s})$. The correction weights are mesh-independent and they can be precomputed via analytic continuation of a special generalization of the Riemann zeta function for a given $(d, s, p)$. This makes SinCoTrap both efficient in application and robust for high-order accuracy across a broad class of periodic singular integrals.
