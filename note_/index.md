@@ -11,6 +11,12 @@ Hopefully you can also gain some insight from these notes. 🤠
 Actually I just write down some words to improve my writing skill (+_+)? and
 mainly for fun. 🙃
 
+## Health
+
+Good health is the greatest wealth.
+
+- [Mental Health](./mental_health) 
+
 ## Math
 
 What is good mathematics?
