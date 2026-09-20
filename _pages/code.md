@@ -18,6 +18,30 @@ DGESMAT aims to simplify the prototyping and testing of new algorithms for solvi
 
 Currently, DGESMAT employs standard pseudopotentials and supports local density approximation (LDA), generalized gradient approximation (GGA), and hybrid functionals. Furthermore, future releases will incorporate time-dependent DFT and post-DFT calculations to expand its capabilities.
 
+## AI Product
+
+This part are some codes relatived to LLM and AI.
+
+### Referee Response Harness [[Github]](https://github.com/HengzhunChen/referee-response-harness)
+
+A Codex skill that helps you setup the auxiliary files used for a LaTeX paper revision—from reviewer comments to an author-approved response. It creates and maintains a self-contained revision harness adapted to each paper's sources, reviewer reports, deliverables, and workflow.
+
+The general workflow used in this harness is 
+
+- The agent first extracts concerns of referees and proposes clusters from
+their dependencies. 
+
+- Follow the cluster sequence to discuss concerns and possible treatments
+with the agent. 
+
+- Ask the agent to complete the revision of each cluster and generate `diff` files.
+
+- The consistency check is usually used after the author do some manual
+edition.
+
+- The agent writes the response letter based on the revised paper.
+
+
 ## Code
 
 This part are some independent codes for particular usage.
