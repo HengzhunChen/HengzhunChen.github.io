@@ -23,7 +23,7 @@ What is good mathematics?
 
 There is a remarkable phenomenon that 
 **good mathematics tends to beget more good mathematics**. 
-Perhaps all the sepcific metrics for good quality mathematics just
+Perhaps all the specific metrics for good quality mathematics just
 represent different routes to uncover new mathematics, or different
 stages or aspects of the evolution of a mathematical _story_.
 
